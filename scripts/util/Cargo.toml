@@ -8,9 +8,9 @@ name = "uc"
 path = "main.rs"
 
 [dependencies]
-ic-agent = "0.12.1"
+ic-agent = "0.24.1"
 ic-types = "0.3.0"
-candid = { version = "0.7.10", features = [ "random" ] }
+candid = "0.8.4"
 clap = { version = "3.1.6", features = [ "derive" ] }
 garcon = { version = "0.2", features = ["async"] }
 hex = {version = "0.4.2", features = ["serde"] }
